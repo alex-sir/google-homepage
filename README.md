@@ -1,0 +1,1 @@
+Project to replicate the look of the Google homepage. This project demonstrates my skills in replecating a simple webpage.
