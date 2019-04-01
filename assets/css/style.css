@@ -75,7 +75,6 @@ form {
 
 .searchbar {
     margin-top: 30px;
-    width: 520px;
     height: 25px;
     border: 0.3px solid rgba(0, 0, 0, 0.3);
     border-radius: 20px;
@@ -84,16 +83,7 @@ form {
     margin-right: auto;
 }
 
-.searchbar img {
-    position: relative;
-    top: 2px;
-    display: inline-block;
-    width: 15px;
-    height: 20px;
-}
-
 form input[type="text"] {
-    width: 500px;
     height: 20px;
     border: none;
     text-align: left;
@@ -160,4 +150,41 @@ form input[type="submit"]:hover {
 
 .marg {
     margin-right: 20px;
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 560px) {
+
+    .searchbar,
+    form input[type="text"] {
+        width: 93%;
+    }
+
+    .searchbar img {
+        position: relative;
+        bottom: 20px;
+        left: 140px;
+        display: inline-block;
+        width: 15px;
+        height: 20px;
+    }
+}
+
+/* Larger than mobile */
+@media only screen and (min-width: 560px) {
+    .searchbar {
+        width: 520px;
+    }
+
+    form input[type="text"] {
+        width: 500px;
+    }
+
+    .searchbar img {
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        width: 15px;
+        height: 20px;
+    }
 }
