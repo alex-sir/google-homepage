@@ -52,7 +52,7 @@ body {
 }
 
 .tlink:hover {
-    border-bottom: 1px solid black;
+    text-decoration: underline;
 }
 
 /* Search body */
@@ -145,7 +145,7 @@ form input[type="submit"]:hover {
 
 #btml-nav a:hover,
 #btmr-nav a:hover {
-    border-bottom: 1px solid black;
+    text-decoration: underline;
 }
 
 .marg {
